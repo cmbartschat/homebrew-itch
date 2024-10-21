@@ -1,7 +1,7 @@
 class Itch < Formula
   homepage "https://github.com/cmbartschat/itch"
-  url "https://hmncl.us/file/itch-2024-10-01.zip"
-  sha256 "4080e7d24b6d31cac47d83877d8afaa893aed48cd6fd00540b8290c60bf8f6dc"
+  url "https://github.com/cmbartschat/itch/archive/refs/tags/v0.1.0.zip"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
   depends_on "rust" => :build
 
