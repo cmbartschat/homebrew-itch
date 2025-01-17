@@ -1,7 +1,7 @@
 class Itch < Formula
   homepage "https://github.com/cmbartschat/itch"
-  url "https://github.com/cmbartschat/itch/archive/refs/tags/v0.4.0.zip"
-  sha256 "28eacbefc480bcdec4d1dc6135aa91eec8380e297eb37d9fb84f0eb5351d2157"
+  url "https://github.com/cmbartschat/itch/archive/refs/tags/v0.5.0.zip"
+  sha256 "b8f6ed381394818c4e64d23798205df91f970d9d04289fdd693f24518c3f30db"
 
   depends_on "rust" => :build
 
@@ -11,6 +11,6 @@ class Itch < Formula
   end
 
   test do
-    assert_match "itch 0.4.0", shell_output("#{bin}/itch --version")
+    assert_match "itch 0.5.0", shell_output("#{bin}/itch --version")
   end
 end
